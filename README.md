@@ -1,135 +1,136 @@
-# LangGraph SAP AI Core BTP Python Bootstart Template
+# SAP BTP Python AI Core Kickstart Template
 
-This project is a modular Python Flask backend for SAP BTP, integrating SAP HANA Cloud, XSUAA, Destination, and Object Store services, with ready-to-use AI Core connectivity. It is designed as a bootstart template for any SAP BTP Python AI Core application developer.
+This template provides a production-ready Python Flask application integrated with SAP BTP services, focusing on AI Core, HANA Cloud, XSUAA, and Destination services. It serves as a foundation for building scalable AI/ML applications on SAP Business Technology Platform.
 
----
+## ✨ Features
+
+- **Ready-to-use BTP Service Integration:**
+  - SAP AI Core connectivity via Destination service
+  - HANA Cloud database integration
+  - XSUAA authentication
+  - Object Store support
+- **Developer-Friendly Setup:**
+  - Local development support with `vcap_services.json`
+  - Comprehensive logging
+  - Modular service architecture
+- **Production-Ready:**
+  - MTA deployment configuration
+  - Service binding automation
+  - Error handling & logging
 
 ## 🚀 Quick Start
 
-### 1. Clone the Repository
-```sh
-git clone <your-repo-url>
-cd <project-folder>
+### Prerequisites
+
+1. **SAP BTP Account Setup:**
+   - SAP BTP Subaccount with Cloud Foundry
+   - Entitlements for:
+     - SAP AI Core
+     - SAP HANA Cloud
+     - Authorization & Trust Management (XSUAA)
+     - Destination Service
+     - Object Store (optional)
+
+2. **Local Development Tools:**
+   - Python 3.8+
+   - [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html)
+   - [MBT Build Tool](https://sap.github.io/cloud-mta-build-tool/)
+
+### Local Development Setup
+
+1. **Clone & Install:**
+   ```bash
+   git clone <your-repo-url>
+   cd <project-folder>
+   pip install -r src/requirements.txt
+   ```
+
+2. **Configure VCAP_SERVICES:**
+   - Create required services in BTP Cockpit
+   - Get service credentials:
+     ```bash
+     cf create-service-key <service-instance> <key-name>
+     cf service-key <service-instance> <key-name>
+     ```
+   - Save as `vcap_services.json` (format):
+     ```json
+     {
+       "hana": [{...}],
+       "xsuaa": [{...}],
+       "destination": [{...}]
+     }
+     ```
+
+3. **Run Locally:**
+   ```bash
+   cd src
+   python server.py
+   ```
+
+### Available Endpoints
+
+- `GET /health` - Service health check
+- `GET /hana-user` - Test HANA connectivity
+- `GET /xsuaa-token` - Verify XSUAA setup
+- `GET /destination-token` - Test destination service
+- `GET /aicore-credentials` - Validate AI Core access
+
+## 📦 Project Structure
+
+```
+├── src/
+│   ├── server.py          # Flask application & endpoints
+│   ├── requirements.txt   # Python dependencies
+│   └── srv/
+│       ├── hana_srv.py    # HANA service integration
+│       ├── xsuaa_srv.py   # Auth service
+│       └── ...
+├── mta.yaml              # MTA deployment descriptor
+└── vcap_services.json    # Local development credentials
 ```
 
-### 2. Prerequisites
-- Python 3.8+
-- SAP BTP Subaccount with:
-  - SAP HANA Cloud
-  - XSUAA (Authorization & Trust Management)
-  - Destination Service
-  - (Optional) Object Store
-  - SAP AI Core instance
-- [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html)
-- [MBT Build Tool](https://sap.github.io/cloud-mta-build-tool/)
+## 🚢 Deployment
 
-### 3. Setup VCAP_SERVICES for Local Development
-- Deploy all required services in BTP Cockpit and bind them to your app.
-- Run `cf env <your-app-name>` after deployment and copy the `VCAP_SERVICES` JSON block.
-- Save it as `vcap_services.json` in the project root for local testing.
-- Or set the environment variable:
-  ```sh
-  export VCAP_SERVICES=$(cat vcap_services.json)
-  ```
+1. **Build MTA Archive:**
+   ```bash
+   mbt build
+   ```
 
-### 4. Install Python Dependencies
-```sh
-pip install -r src/requirements.txt
-```
+2. **Deploy to Cloud Foundry:**
+   ```bash
+   cf deploy mta_archives/*.mtar
+   ```
 
-### 5. Run the Flask App Locally
-```sh
-cd src
-python server.py
-```
+3. **Verify Deployment:**
+   ```bash
+   cf apps
+   cf services
+   ```
 
----
+## 🔒 Security Notes
 
-## 🏗️ Project Structure
+- Store sensitive data in `vcap_services.json` (git-ignored)
+- Use environment variables in production
+- Follow SAP security best practices
+- Regularly rotate service keys
 
-- `src/server.py` — Flask entrypoint, all endpoints, service loading, logging
-- `src/srv/` — Modular service logic for HANA, XSUAA, Destination, Object Store, logging
-- `mta.yaml` — Multi-Target Application descriptor for SAP BTP deployment
-- `vcap_services.json` — Local credentials (see above)
-- `db/` — (Optional) Database artifacts
+## 🤝 Contributing
 
----
+1. Create a feature branch
+2. Make your changes
+3. Test thoroughly
+4. Submit a pull request
 
-## 🔑 Service Activation & BTP Setup
+## 📚 Resources
 
-### 1. Create and Bind Services
-- In BTP Cockpit, create instances for:
-  - SAP HANA Cloud (HDI container)
-  - XSUAA (plan: application)
-  - Destination (plan: lite)
-  - (Optional) Object Store
-- Bind all services to your app module in the MTA or via Cockpit.
-
-### 2. Create a Destination for AI Core
-- Go to **Connectivity > Destinations** in BTP Cockpit.
-- Click **New Destination** and enter:
-  - **Name:** `aicore`
-  - **Type:** HTTP
-  - **URL:** `https://<your-aicore-instance-url>`
-  - **Proxy Type:** Internet
-  - **Authentication:** OAuth2ClientCredentials
-  - **Client ID/Secret:** From your AI Core service key
-  - **Token Service URL:** From your AI Core service key
-  - Add any required additional properties (e.g., `scope`)
-- Click **Check Connection** to verify.
-
-### 3. Assign Role Collections for Destination Access
-- Go to **Security > Role Collections** in BTP Cockpit.
-- Create a new role collection (e.g., `LangGraphDestinationUser`).
-- Add the `DestinationService.<instance>_User` role for your Destination instance.
-- Assign the role collection to your user (for local dev) or your app's service instance (for production).
-
-### 4. Deploy to SAP BTP Cloud Foundry
-```sh
-mbt build
-cf deploy mta_archives/<your-mtar-file>.mtar
-```
-
----
-
-## 📝 mta.yaml Documentation
-
-- **python module**: Flask backend, binds all services
-- **hana**: HDI container for persistence
-- **xsuaa**: AuthN/AuthZ
-- **destination**: For AI Core and other HTTP destinations
-- **object-store**: (Optional) File storage
-- **VCAP_SERVICES**: Used for all credential loading (see above)
-
----
-
-## 🧑‍💻 For Developers
-- All endpoints log key events for easy debugging.
-- Modular service logic in `src/srv/` for easy extension.
-- Use `/aicore-credentials` to test end-to-end AI Core connectivity via Destination.
-- See code comments for further extension points.
-
----
-
-## 📚 References
-- [SAP BTP Python Sample](https://github.com/SAP-samples)
 - [SAP AI Core Documentation](https://help.sap.com/docs/AI_CORE)
-- [SAP BTP Cockpit Guide](https://help.sap.com/docs/btp)
+- [SAP BTP Developer Guide](https://help.sap.com/docs/btp)
+- [Cloud Foundry CLI Guide](https://docs.cloudfoundry.org/cf-cli/)
+
+## 📫 Support
+
+For issues and feature requests, please use the GitHub issue tracker.
 
 ---
 
-## 💡 Tips
-- Always keep your `vcap_services.json` up to date after service changes.
-- Use BTP Cockpit to manage roles and service bindings.
-- For production, never commit secrets or credentials to git.
-
----
-
-## 🛠️ Troubleshooting
-- **403 Forbidden on Destination:** Assign the correct DestinationService role collection.
-- **404 Not Found on AI Core:** Check the destination URL and path.
-- **Service not found:** Ensure all services are bound and VCAP_SERVICES is correct.
-
----
-
-Happy building with SAP BTP and Python AI Core!
+Happy coding with SAP BTP and AI Core! 🚀
