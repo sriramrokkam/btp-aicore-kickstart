@@ -1,7 +1,8 @@
 import os
 import json
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from srv import *
+from srv.aicore_srv import get_foundation_model
 
 app = Flask(__name__)
 
@@ -170,6 +171,30 @@ def aicore_credentials():
         from srv.logger_srv import log_exception
         log_exception("Failed to fetch AI Core credentials via destination", e)
         return jsonify({"status": "error", "error": str(e)}), 500
+
+@app.route("/aicore/inference", methods=['POST'])
+def aicore_inference():
+    log_info("/aicore/inference endpoint called")
+    try:
+        # Get prompt from request body
+        data = request.get_json()
+        prompt = data.get('prompt', '')
+        if not prompt:
+            return {"error": "No prompt provided"}, 400
+
+        # Get AI Core credentials
+        from srv.destination_srv import get_aicore_credentials
+        creds = get_aicore_credentials(xsuaa_list, destination_list)
+        
+        # Get response from foundation model
+        result = get_foundation_model(creds, prompt)
+        
+        log_info("/aicore/inference success")
+        return {"result": result}
+    except Exception as e:
+        from srv.logger_srv import log_exception
+        log_exception("/aicore/inference error", e)
+        return {"error": str(e)}, 500
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.getenv("PORT", 8080)))

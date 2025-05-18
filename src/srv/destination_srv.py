@@ -4,86 +4,27 @@ import requests
 from .logger_srv import log_info, log_error, log_exception
 from .xsuaa_srv import get_xsuaa_token
 
-def get_destination_credentials(destination_name, xsuaa_list, destination_list):
-    """
-    Fetch destination credentials (e.g., for AI Core) securely from SAP Destination Service.
-    """
-    try:
-        # Get XSUAA token using the shared function
-        access_token = get_xsuaa_token(xsuaa_list)
-        dest_service = destination_list[0]
-        dest_uri = dest_service.get("uri") or dest_service.get("url")
-        if not dest_uri:
-            raise Exception("Destination service URI not found in VCAP_SERVICES.")
-        dest_uri = dest_uri.rstrip("/") + f"/destination-configuration/v1/destinations/{destination_name}"
-        headers = {"Authorization": f"Bearer {access_token}"}
-        log_info(f"Fetching destination '{destination_name}' from {dest_uri}")
-        resp = requests.get(dest_uri, headers=headers)
-        log_info(f"Destination service response: status={resp.status_code}, body={resp.text}")
-        resp.raise_for_status()
-        return resp.json()
-    except Exception as e:
-        log_exception("Error fetching destination credentials", e)
-        raise
-
-def get_aicore_credentials(xsuaa_list, destination_list):
-    """
-    Fetch AI Core credentials from the destination service (e.g., 'aicore').
-    Then, use the destination config to get an OAuth2 token and call /v2/health on the AI Core instance.
-    Returns a dict with the health check result and redacted destination config.
-    """
-    try:
-        # 1. Fetch destination config (destination name should match your BTP cockpit, e.g., 'aicore')
-        destination_name = "aicore"  # Change if your destination is named differently
-        dest_config = get_destination_credentials(destination_name, xsuaa_list, destination_list)
-        # 2. Get OAuth2 token for AI Core using destination config
-        token_url = dest_config.get("tokenServiceURL")
-        client_id = dest_config.get("clientid")
-        client_secret = dest_config.get("clientsecret")
-        if not all([token_url, client_id, client_secret]):
-            raise Exception("Destination config missing OAuth2 properties (tokenServiceURL, clientid, clientsecret)")
-        token_resp = requests.post(
-            token_url,
-            data={"grant_type": "client_credentials"},
-            auth=(client_id, client_secret),
-            headers={"Accept": "application/json"}
-        )
-        if token_resp.status_code != 200:
-            raise Exception(f"Failed to get AI Core OAuth2 token: {token_resp.text}")
-        access_token = token_resp.json()["access_token"]
-        # 3. Call /v2/health on the AI Core instance
-        base_url = dest_config.get("URL") or dest_config.get("url")
-        if not base_url:
-            raise Exception("Destination config missing URL property")
-        health_url = base_url.rstrip("/") + "/v2/health"
-        health_resp = requests.get(health_url, headers={"Authorization": f"Bearer {access_token}"})
-        # Redact sensitive fields for response
-        redacted = {k: ("***REDACTED***" if "secret" in k.lower() or "password" in k.lower() else v) for k, v in dest_config.items()}
-        return {
-            "status": "success" if health_resp.status_code == 200 else "error",
-            "aicore_health_status": health_resp.status_code,
-            "aicore_health_response": health_resp.text,
-            "aicore_destination": redacted
-        }
-    except Exception as e:
-        log_exception("Error in get_aicore_credentials", e)
-        return {"status": "error", "error": str(e)}
-
 def get_destination_token(destination_services):
     """
     Obtain a destination service token using client credentials from the first destination entry.
-    Improved logging for debugging.
     """
+    if not destination_services:
+        raise Exception("No destination credentials found")
+
     creds = destination_services[0]
     token_url = creds.get("url", "") + "/oauth/token"
     client_id = creds.get("clientid")
     client_secret = creds.get("clientsecret")
+    
+    if not all([token_url, client_id, client_secret]):
+        raise Exception("Missing required destination service credentials")
+
     payload = {
         "grant_type": "client_credentials"
     }
-    from .logger_srv import log_info, log_error
+    
     log_info(f"Requesting destination token from: {token_url}")
-    log_info(f"Using client_id: {client_id}")
+    
     try:
         response = requests.post(
             token_url,
@@ -91,11 +32,90 @@ def get_destination_token(destination_services):
             auth=(client_id, client_secret),
             headers={"Accept": "application/json"}
         )
-        log_info(f"Destination token endpoint response: status={response.status_code}, body={response.text}")
+        log_info(f"Destination token response status: {response.status_code}")
+        
         if response.status_code != 200:
             log_error(f"Failed to get destination token: {response.text}")
             raise Exception(f"Failed to get destination token: {response.text}")
+            
         return response.json()["access_token"]
     except Exception as e:
         log_error(f"Exception during destination token request: {str(e)}")
         raise
+
+def get_destination_configuration(destination_name, xsuaa_token, destination_list):
+    """
+    Get configuration for a specific destination.
+    """
+    if not destination_list:
+        raise Exception("No destination credentials found")
+        
+    dest_creds = destination_list[0]
+    dest_base_url = dest_creds.get('uri', dest_creds.get('url'))
+    
+    if not dest_base_url:
+        raise Exception("No destination service URL found")
+        
+    dest_url = f"{dest_base_url.rstrip('/')}/destination-configuration/v1/destinations/{destination_name}"
+    log_info(f"Fetching destination '{destination_name}' from: {dest_url}")
+    
+    headers = {
+        'Authorization': f"Bearer {xsuaa_token}",
+        'Content-Type': 'application/json'
+    }
+    
+    response = requests.get(dest_url, headers=headers)
+    log_info(f"Destination configuration response status: {response.status_code}")
+    
+    if response.status_code != 200:
+        log_error(f"Failed to get destination configuration: {response.text}")
+        raise Exception(f"Failed to get destination configuration: {response.text}")
+        
+    return response.json()
+
+def get_aicore_credentials(xsuaa_list, destination_list):
+    """
+    Get AI Core credentials via destination service with OAuth2 client credentials.
+    """
+    try:
+        # Get XSUAA token for destination service access
+        xsuaa_token = get_xsuaa_token(xsuaa_list)
+        if not xsuaa_token:
+            raise Exception("Failed to get XSUAA token")
+            
+        # Get AI Core destination configuration
+        dest_config = get_destination_configuration('aicore', xsuaa_token, destination_list)
+        log_info("Successfully retrieved AI Core destination configuration")
+        
+        # Extract AI Core specific configuration
+        aicore_url = dest_config.get('destinationConfiguration', {}).get('URL')
+        auth_type = dest_config.get('destinationConfiguration', {}).get('Authentication')
+        
+        if not aicore_url:
+            raise Exception("AI Core URL not found in destination configuration")
+            
+        if auth_type != 'OAuth2ClientCredentials':
+            raise Exception(f"Unexpected authentication type: {auth_type}")
+            
+        # Get OAuth token for AI Core access
+        auth_tokens = dest_config.get('authTokens', [])
+        if not auth_tokens:
+            raise Exception("No auth tokens found in destination configuration")
+            
+        access_token = auth_tokens[0].get('value')
+        if not access_token:
+            raise Exception("No access token found in auth tokens")
+            
+        # Return the AI Core credentials
+        credentials = {
+            'url': aicore_url.rstrip('/'),  # Ensure no trailing slash
+            'token': access_token,
+            'auth_type': auth_type
+        }
+        
+        log_info("Successfully constructed AI Core credentials")
+        return credentials
+        
+    except Exception as e:
+        log_exception("Error getting AI Core credentials", e)
+        raise e
