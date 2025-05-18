@@ -1,0 +1,728 @@
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:47:10.982932] Added process: "web" (STDOUT, API)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:47:10.991125] Created app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:47:11.092191] Updating process: "web" (STDOUT, API)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:47:11.158879] Scaling process: "web" (STDOUT, API)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:29.479535] Uploading app package for app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:29.704843] Updated app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:39.636280] Creating build for app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:39.997828] Downloading python_buildpack... (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:40.037966] Downloaded python_buildpack (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:40.038043] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 creating container for instance d7d84aee-809f-42cf-983b-b3c3d777ca46 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:40.452706] Security group rules were updated (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:40.518931] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 successfully created container for instance d7d84aee-809f-42cf-983b-b3c3d777ca46 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:40.947642] Downloading app package... (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:40.987528] Downloaded app package (1.8K) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:41.043153] -----> Python Buildpack version 1.8.32 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:41.043757] -----> Supplying Python (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:41.043862] -----> Installing python 3.10.16 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:41.043945] Copy [/tmp/buildpacks/7a794d1c58a70b4d/dependencies/43c0bb0f8851b23fa47ddd7a20d187e1/python_3.10.16_linux_x64_cflinuxfs4_5be77ea1.tgz] (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:43.679251] Using python's pip module (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:45.219561] pip 23.0.1 from /tmp/contents2731888344/deps/0/python/lib/python3.10/site-packages/pip (python 3.10) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:45.274960] -----> Running Pip Install (Unvendored) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:45.275185] python -m pip install -r /tmp/app/requirements.txt --ignore-installed --exists-action=w --src=/tmp/contents2731888344/deps/0/src --disable-pip-version-check --no-warn-script-location (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:46.268997] Collecting Flask (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:46.336232] Downloading flask-3.1.1-py3-none-any.whl (103 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:46.383108] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.3/103.3 kB 2.2 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:46.652869] Collecting hdbcli (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:46.663303] Downloading hdbcli-2.24.24-cp34-abi3-manylinux1_x86_64.whl (11.3 MB) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:46.804942] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 81.5 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:46.908161] Collecting requests (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:46.918006] Downloading requests-2.32.3-py3-none-any.whl (64 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:46.929682] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 6.4 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.074840] Collecting langgraph (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.087238] Downloading langgraph-0.4.5-py3-none-any.whl (155 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.102615] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.3/155.3 kB 12.3 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.159437] Collecting jinja2>=3.1.2 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.164747] Downloading jinja2-3.1.6-py3-none-any.whl (134 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.180462] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 10.3 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.248901] Collecting werkzeug>=3.1.0 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.253629] Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.271095] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.5/224.5 kB 15.6 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.440745] Collecting markupsafe>=2.1.1 (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.445648] Downloading MarkupSafe-3.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.493#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.485801] Collecting blinker>=1.9.0 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.490484] Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.533492] Collecting itsdangerous>=2.2.0 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.538174] Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.599043] Collecting click>=8.1.3 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.604238] Downloading click-8.2.0-py3-none-any.whl (102 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.619802] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.2/102.2 kB 7.7 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.886101] Collecting charset-normalizer<4,>=2 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.891545] Downloading charset_normalizer-3.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (149 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.907836] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 149.5/149.5 kB 10.8 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.960184] Collecting certifi>=2017.4.17 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.971357] Downloading certifi-2025.4.26-py3-none-any.whl (159 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:47.987417] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 159.6/159.6 kB 11.7 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.028044] Collecting idna<4,>=2.5 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.032706] Downloading idna-3.10-py3-none-any.whl (70 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.046958] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 5.3 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.138083] Collecting urllib3<3,>=1.21.1 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.142883] Downloading urllib3-2.4.0-py3-none-any.whl (128 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.158895] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.7/128.7 kB 9.5 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.222285] Collecting langgraph-checkpoint<3.0.0,>=2.0.26 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.226722] Downloading langgraph_checkpoint-2.0.26-py3-none-any.whl (44 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.238776] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.2/44.2 kB 3.8 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.520738] Collecting xxhash<4.0.0,>=3.5.0 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.525180] Downloading xxhash-3.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (194 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.541495] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 194.1/194.1 kB 14.2 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.604514] Collecting langgraph-sdk>=0.1.42 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.609042] Downloading langgraph_sdk-0.1.69-py3-none-any.whl (48 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.623469] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.9/48.9 kB 3.5 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:48.997472] Collecting pydantic>=2.7.4 (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.002518] Downloading pydantic-2.11.4-py3-none-any.whl (443 kB) (STDOUT, STG)#
+#2025 05 18 01:48:49.494#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10313#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.021320] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 443.9/443.9 kB 28.2 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.056899] Collecting langgraph-prebuilt>=0.1.8 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.061361] Downloading langgraph_prebuilt-0.1.8-py3-none-any.whl (25 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.215641] Collecting langchain-core>=0.1 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.219938] Downloading langchain_core-0.3.60-py3-none-any.whl (437 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.239807] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 437.9/437.9 kB 26.2 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.318867] Collecting tenacity!=8.4.0,<10.0.0,>=8.1.0 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.323530] Downloading tenacity-9.1.2-py3-none-any.whl (28 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.442381] Collecting PyYAML>=5.3 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.446895] Downloading PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.467994] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 751.2/751.2 kB 41.8 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.701842] Collecting langsmith<0.4,>=0.1.126 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.706529] Downloading langsmith-0.3.42-py3-none-any.whl (360 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.724655] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 360.3/360.3 kB 23.7 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.776925] Collecting packaging<25,>=23.2 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.781309] Downloading packaging-24.2-py3-none-any.whl (65 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.795444] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB 5.0 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.844842] Collecting typing-extensions>=4.7 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.849782] Downloading typing_extensions-4.13.2-py3-none-any.whl (45 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.864113] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.8/45.8 kB 3.2 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.906034] Collecting jsonpatch<2.0,>=1.33 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:49.910838] Downloading jsonpatch-1.33-py2.py3-none-any.whl (12 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:50.064591] Collecting ormsgpack<2.0.0,>=1.8.0 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:50.070268] Downloading ormsgpack-1.9.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (223 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:50.090100] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 223.6/223.6 kB 13.1 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:50.517259] Collecting httpx>=0.25.2 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:50.521944] Downloading httpx-0.28.1-py3-none-any.whl (73 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:50.531194] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.5/73.5 kB 11.5 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:51.405395] Collecting orjson>=3.10.1 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:51.415147] Downloading orjson-3.10.18-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (132 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:51.426622] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.8/132.8 kB 15.1 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.577541] Collecting pydantic-core==2.33.2 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.584810] Downloading pydantic_core-2.33.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.616401] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 71.2 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.653236] Collecting typing-inspection>=0.4.0 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.657788] Downloading typing_inspection-0.4.0-py3-none-any.whl (14 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.709109] Collecting annotated-types>=0.6.0 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.714535] Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.837904] Collecting anyio (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.843857] Downloading anyio-4.9.0-py3-none-any.whl (100 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.859359] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.9/100.9 kB 7.5 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.918383] Collecting httpcore==1.* (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.923563] Downloading httpcore-1.0.9-py3-none-any.whl (78 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.938473] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.8/78.8 kB 5.9 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.980252] Collecting h11>=0.16 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:53.985133] Downloading h11-0.16.0-py3-none-any.whl (37 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.041457] Collecting jsonpointer>=1.9 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.050568] Downloading jsonpointer-3.0.0-py2.py3-none-any.whl (7.6 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.383653] Collecting zstandard<0.24.0,>=0.23.0 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.389554] Downloading zstandard-0.23.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.4 MB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.448615] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 97.0 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.502732] Collecting requests-toolbelt<2.0.0,>=1.0.0 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.506903] Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.518268] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.5/54.5 kB 5.3 MB/s eta 0:00:00 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.701262] Collecting sniffio>=1.1 (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.705081] Downloading sniffio-1.3.1-py3-none-any.whl (10 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.489#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.746872] Collecting exceptiongroup>=1.0.2 (STDOUT, STG)#
+#2025 05 18 01:48:59.490#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:54.750522] Downloading exceptiongroup-1.3.0-py3-none-any.whl (16 kB) (STDOUT, STG)#
+#2025 05 18 01:48:59.490#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:55.079006] Installing collected packages: hdbcli, zstandard, xxhash, urllib3, typing-extensions, tenacity, sniffio, PyYAML, packaging, ormsgpack, orjson, markupsafe, jsonpointer, itsdangerous, idna, h11, click, charset-normalizer, certifi, blinker, annotated-types, werkzeug, typing-inspection, requests, pydantic-core, jsonpatch, jinja2, httpcore, exceptiongroup, requests-toolbelt, pydantic, Flask, anyio, httpx, langsmith, langgraph-sdk, langchain-core, langgraph-checkpoint, langgraph-prebuilt, langgraph (STDOUT, STG)#
+#2025 05 18 01:48:59.490#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:58.375284] Successfully installed Flask-3.1.1 PyYAML-6.0.2 annotated-types-0.7.0 anyio-4.9.0 blinker-1.9.0 certifi-2025.4.26 charset-normalizer-3.4.2 click-8.2.0 exceptiongroup-1.3.0 h11-0.16.0 hdbcli-2.24.24 httpcore-1.0.9 httpx-0.28.1 idna-3.10 itsdangerous-2.2.0 jinja2-3.1.6 jsonpatch-1.33 jsonpointer-3.0.0 langchain-core-0.3.60 langgraph-0.4.5 langgraph-checkpoint-2.0.26 langgraph-prebuilt-0.1.8 langgraph-sdk-0.1.69 langsmith-0.3.42 markupsafe-3.0.2 orjson-3.10.18 ormsgpack-1.9.1 packaging-24.2 pydantic-2.11.4 pydantic-core-2.33.2 requests-2.32.3 requests-toolbelt-1.0.0 sniffio-1.3.1 tenacity-9.1.2 typing-extensions-4.13.2 typing-inspection-0.4.0 urllib3-2.4.0 werkzeug-3.1.3 xxhash-3.5.0 zstandard-0.23.0 (STDOUT, STG)#
+#2025 05 18 01:48:59.490#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:58.876083] No start command specified by buildpack or via Procfile. (STDERR, STG)#
+#2025 05 18 01:48:59.490#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10320#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:48:58.876092] App will not start unless a command is provided at runtime. (STDERR, STG)#
+#2025 05 18 01:49:19.530#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10334#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:14.897039] Exit status 0 (STDOUT, STG)#
+#2025 05 18 01:49:19.530#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10334#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:14.897086] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2025 05 18 01:49:19.530#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10334#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:14.897128] Uploading droplet... (STDOUT, STG)#
+#2025 05 18 01:49:19.530#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10334#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:14.897153] Uploading build artifacts cache... (STDOUT, STG)#
+#2025 05 18 01:49:19.530#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10334#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:15.482242] Uploaded build artifacts cache (24.9M) (STDOUT, STG)#
+#2025 05 18 01:49:19.530#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10334#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:16.577975] Creating droplet for app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:49:29.535#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10341#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:22.862516] Uploaded droplet (88.3M) (STDOUT, STG)#
+#2025 05 18 01:49:29.535#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10341#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:22.879693] Uploading complete (STDOUT, STG)#
+#2025 05 18 01:49:29.535#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10341#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:23.337891] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 stopping instance d7d84aee-809f-42cf-983b-b3c3d777ca46 (STDOUT, STG)#
+#2025 05 18 01:49:29.535#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10341#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:23.337940] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 destroying container for instance d7d84aee-809f-42cf-983b-b3c3d777ca46 (STDOUT, STG)#
+#2025 05 18 01:49:29.535#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10341#
+[PollStageAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:24.495315] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 successfully destroyed container for instance d7d84aee-809f-42cf-983b-b3c3d777ca46 (STDOUT, STG)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:29.606150] Updated app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 ({:droplet_guid=>"00c8941c-6d29-4c7d-b5e0-6a3f7a78b1da"}) (STDOUT, API)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:29.819753] Creating revision for app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:29.868517] Starting app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:30.062537] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 creating container for instance bdce3939-5f57-4974-5c17-3826 (STDOUT, CELL)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:30.455515] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:30.511127] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 successfully created container for instance bdce3939-5f57-4974-5c17-3826 (STDOUT, CELL)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:30.861911] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:35.207495] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:35.207599] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:35.273345] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:35.314966] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:35.316737] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:49:39.576#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10347#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:35.321931] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:41.120672] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:41.121408] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 stopping instance bdce3939-5f57-4974-5c17-3826 (STDOUT, CELL)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:41.121466] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 destroying container for instance bdce3939-5f57-4974-5c17-3826 (STDOUT, CELL)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:41.132490] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"bdce3939-5f57-4974-5c17-3826", "index"=>0, "cell_id"=>"07ad3f7e-6603-413b-8ef3-8fa54381a4d1", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1747532981102825303, "version"=>"5cd7669f-5b7e-4c8c-a984-7785607783a8"} (STDOUT, API)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:41.180566] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 creating container for instance 2d1d4f0d-74cf-4e0d-676f-6dd4 (STDOUT, CELL)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:41.243580] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:41.568958] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:41.624781] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 successfully created container for instance 2d1d4f0d-74cf-4e0d-676f-6dd4 (STDOUT, CELL)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:41.849515] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:42.587252] Cell 07ad3f7e-6603-413b-8ef3-8fa54381a4d1 successfully destroyed container for instance bdce3939-5f57-4974-5c17-3826 (STDOUT, CELL)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:46.044168] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:46.044281] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:46.107802] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:46.167516] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:46.169222] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:49:49.572#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10350#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:46.173892] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:52.288456] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 stopping instance 2d1d4f0d-74cf-4e0d-676f-6dd4 (STDOUT, CELL)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:52.288493] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 destroying container for instance 2d1d4f0d-74cf-4e0d-676f-6dd4 (STDOUT, CELL)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:52.290099] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:52.303855] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"2d1d4f0d-74cf-4e0d-676f-6dd4", "index"=>0, "cell_id"=>"b29e5b5c-e50a-44b7-887b-4d2321603506", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1747532992271243493, "version"=>"5cd7669f-5b7e-4c8c-a984-7785607783a8"} (STDOUT, API)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:52.350272] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb creating container for instance be2f38b4-e7f8-430a-7069-2b87 (STDOUT, CELL)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:52.389851] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:52.717335] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:52.768211] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb successfully created container for instance be2f38b4-e7f8-430a-7069-2b87 (STDOUT, CELL)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:53.384199] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:53.662124] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 successfully destroyed container for instance 2d1d4f0d-74cf-4e0d-676f-6dd4 (STDOUT, CELL)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:57.531081] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:57.531181] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:57.589260] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:57.634187] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:57.635992] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:49:59.589#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10355#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:49:57.641277] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:09.597#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10364#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.097759] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb stopping instance be2f38b4-e7f8-430a-7069-2b87 (STDOUT, CELL)#
+#2025 05 18 01:50:09.597#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10364#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.097791] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb destroying container for instance be2f38b4-e7f8-430a-7069-2b87 (STDOUT, CELL)#
+#2025 05 18 01:50:09.597#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10364#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.110981] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:50:09.597#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10364#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.121750] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"be2f38b4-e7f8-430a-7069-2b87", "index"=>0, "cell_id"=>"51bfca37-441e-42cc-8b62-c6cb61341adb", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1747533004093306573, "version"=>"5cd7669f-5b7e-4c8c-a984-7785607783a8"} (STDOUT, API)#
+#2025 05 18 01:50:09.597#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10364#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.264204] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:50:09.597#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10364#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:05.486645] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb successfully destroyed container for instance be2f38b4-e7f8-430a-7069-2b87 (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.097759] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb stopping instance be2f38b4-e7f8-430a-7069-2b87 (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.097791] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb destroying container for instance be2f38b4-e7f8-430a-7069-2b87 (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.110981] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.121750] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"be2f38b4-e7f8-430a-7069-2b87", "index"=>0, "cell_id"=>"51bfca37-441e-42cc-8b62-c6cb61341adb", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1747533004093306573, "version"=>"5cd7669f-5b7e-4c8c-a984-7785607783a8"} (STDOUT, API)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:04.264204] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:05.486645] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb successfully destroyed container for instance be2f38b4-e7f8-430a-7069-2b87 (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:10.636119] Stopping app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:10.782826] Starting app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:10.940780] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb creating container for instance 31118f95-1430-42f8-77a4-7d5a (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:11.304800] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:11.355239] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb successfully created container for instance 31118f95-1430-42f8-77a4-7d5a (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:11.825962] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:16.123721] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:16.123820] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:16.186664] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:16.229976] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:16.231413] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:50:19.703#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10370#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:16.236629] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:22.535989] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb stopping instance 31118f95-1430-42f8-77a4-7d5a (STDOUT, CELL)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:22.536029] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb destroying container for instance 31118f95-1430-42f8-77a4-7d5a (STDOUT, CELL)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:22.543381] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:22.558420] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"31118f95-1430-42f8-77a4-7d5a", "index"=>0, "cell_id"=>"51bfca37-441e-42cc-8b62-c6cb61341adb", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1747533022519458413, "version"=>"a4d3b673-2ad1-4c59-8d30-984b34d21c9c"} (STDOUT, API)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:22.593078] Cell d14060d6-1307-4121-8777-fd5c9b4d946a creating container for instance ce174ea4-2c07-4de3-6b17-ee41 (STDOUT, CELL)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:22.641964] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:23.008114] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:23.060190] Cell d14060d6-1307-4121-8777-fd5c9b4d946a successfully created container for instance ce174ea4-2c07-4de3-6b17-ee41 (STDOUT, CELL)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:23.624613] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:23.904873] Cell 51bfca37-441e-42cc-8b62-c6cb61341adb successfully destroyed container for instance 31118f95-1430-42f8-77a4-7d5a (STDOUT, CELL)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:27.845794] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:27.845885] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:27.905851] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:27.962260] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:27.964188] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:50:29.600#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10376#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:27.969324] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:39.617#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:33.847951] Cell d14060d6-1307-4121-8777-fd5c9b4d946a stopping instance ce174ea4-2c07-4de3-6b17-ee41 (STDOUT, CELL)#
+#2025 05 18 01:50:39.617#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:33.847989] Cell d14060d6-1307-4121-8777-fd5c9b4d946a destroying container for instance ce174ea4-2c07-4de3-6b17-ee41 (STDOUT, CELL)#
+#2025 05 18 01:50:39.617#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:33.848275] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:33.858652] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"ce174ea4-2c07-4de3-6b17-ee41", "index"=>0, "cell_id"=>"d14060d6-1307-4121-8777-fd5c9b4d946a", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1747533033830794748, "version"=>"a4d3b673-2ad1-4c59-8d30-984b34d21c9c"} (STDOUT, API)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:33.906989] Cell 7087b8ca-374c-4dfb-b642-6812001bd9e9 creating container for instance ddee16bd-8c72-4a9a-5f66-b974 (STDOUT, CELL)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:33.941052] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:34.303241] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:34.355832] Cell 7087b8ca-374c-4dfb-b642-6812001bd9e9 successfully created container for instance ddee16bd-8c72-4a9a-5f66-b974 (STDOUT, CELL)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:34.815549] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:35.257473] Cell d14060d6-1307-4121-8777-fd5c9b4d946a successfully destroyed container for instance ce174ea4-2c07-4de3-6b17-ee41 (STDOUT, CELL)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:39.121119] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:39.121248] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:39.183516] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:39.228762] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:39.230795] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:50:39.618#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10379#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:39.236749] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:49.619#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10386#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.409576] Cell 7087b8ca-374c-4dfb-b642-6812001bd9e9 stopping instance ddee16bd-8c72-4a9a-5f66-b974 (STDOUT, CELL)#
+#2025 05 18 01:50:49.619#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10386#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.409607] Cell 7087b8ca-374c-4dfb-b642-6812001bd9e9 destroying container for instance ddee16bd-8c72-4a9a-5f66-b974 (STDOUT, CELL)#
+#2025 05 18 01:50:49.619#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10386#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.422690] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:50:49.619#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10386#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.436462] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"ddee16bd-8c72-4a9a-5f66-b974", "index"=>0, "cell_id"=>"7087b8ca-374c-4dfb-b642-6812001bd9e9", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1747533045405371785, "version"=>"a4d3b673-2ad1-4c59-8d30-984b34d21c9c"} (STDOUT, API)#
+#2025 05 18 01:50:49.619#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10386#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.517093] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:50:49.619#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10386#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:46.837978] Cell 7087b8ca-374c-4dfb-b642-6812001bd9e9 successfully destroyed container for instance ddee16bd-8c72-4a9a-5f66-b974 (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.409576] Cell 7087b8ca-374c-4dfb-b642-6812001bd9e9 stopping instance ddee16bd-8c72-4a9a-5f66-b974 (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.409607] Cell 7087b8ca-374c-4dfb-b642-6812001bd9e9 destroying container for instance ddee16bd-8c72-4a9a-5f66-b974 (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.422690] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.436462] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"ddee16bd-8c72-4a9a-5f66-b974", "index"=>0, "cell_id"=>"7087b8ca-374c-4dfb-b642-6812001bd9e9", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1747533045405371785, "version"=>"a4d3b673-2ad1-4c59-8d30-984b34d21c9c"} (STDOUT, API)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:45.517093] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:46.837978] Cell 7087b8ca-374c-4dfb-b642-6812001bd9e9 successfully destroyed container for instance ddee16bd-8c72-4a9a-5f66-b974 (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:50.753816] Stopping app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:50.941957] Starting app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:51.137784] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 creating container for instance 697b8c57-3297-409c-71e4-cc1f (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:51.585983] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:51.642434] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 successfully created container for instance 697b8c57-3297-409c-71e4-cc1f (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:52.259078] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:56.524461] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:56.524560] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:56.581181] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:56.618674] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:56.620332] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:50:59.750#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10388#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:50:56.625112] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:01.984364] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:01.985157] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 stopping instance 697b8c57-3297-409c-71e4-cc1f (STDOUT, CELL)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:01.985194] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 destroying container for instance 697b8c57-3297-409c-71e4-cc1f (STDOUT, CELL)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:01.994664] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"697b8c57-3297-409c-71e4-cc1f", "index"=>0, "cell_id"=>"e07bf812-eb0a-496a-8728-2e644bd9e955", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1747533061968193013, "version"=>"b04cd7f9-f90d-4c2a-a30c-3ab386fad783"} (STDOUT, API)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:02.045908] Cell d14060d6-1307-4121-8777-fd5c9b4d946a creating container for instance 121195ad-2afb-475c-4805-a97f (STDOUT, CELL)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:02.086146] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:02.449409] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:02.515784] Cell d14060d6-1307-4121-8777-fd5c9b4d946a successfully created container for instance 121195ad-2afb-475c-4805-a97f (STDOUT, CELL)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:03.078245] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:03.397094] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 successfully destroyed container for instance 697b8c57-3297-409c-71e4-cc1f (STDOUT, CELL)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:07.408978] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:07.409076] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:07.491138] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:07.543008] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:07.544646] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:51:09.678#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10390#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:07.550902] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:13.760199] Cell d14060d6-1307-4121-8777-fd5c9b4d946a stopping instance 121195ad-2afb-475c-4805-a97f (STDOUT, CELL)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:13.760232] Cell d14060d6-1307-4121-8777-fd5c9b4d946a destroying container for instance 121195ad-2afb-475c-4805-a97f (STDOUT, CELL)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:13.765175] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:13.789787] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"121195ad-2afb-475c-4805-a97f", "index"=>0, "cell_id"=>"d14060d6-1307-4121-8777-fd5c9b4d946a", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1747533073744052878, "version"=>"b04cd7f9-f90d-4c2a-a30c-3ab386fad783"} (STDOUT, API)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:13.818957] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 creating container for instance cf9d8b34-e3e6-4290-7fd8-7305 (STDOUT, CELL)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:13.851547] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:14.181963] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:14.258716] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 successfully created container for instance cf9d8b34-e3e6-4290-7fd8-7305 (STDOUT, CELL)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:14.550873] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:15.155459] Cell d14060d6-1307-4121-8777-fd5c9b4d946a successfully destroyed container for instance 121195ad-2afb-475c-4805-a97f (STDOUT, CELL)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:15.456959] Downloaded droplet (STDOUT, CELL)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:15.457043] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:15.515205] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:15.553024] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:15.554704] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:51:19.673#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10392#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:15.560055] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:29.670#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10394#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.409032] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 stopping instance cf9d8b34-e3e6-4290-7fd8-7305 (STDOUT, CELL)#
+#2025 05 18 01:51:29.670#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10394#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.409061] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 destroying container for instance cf9d8b34-e3e6-4290-7fd8-7305 (STDOUT, CELL)#
+#2025 05 18 01:51:29.670#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10394#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.424544] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:51:29.670#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10394#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.438145] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"cf9d8b34-e3e6-4290-7fd8-7305", "index"=>0, "cell_id"=>"e07bf812-eb0a-496a-8728-2e644bd9e955", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1747533081404905128, "version"=>"b04cd7f9-f90d-4c2a-a30c-3ab386fad783"} (STDOUT, API)#
+#2025 05 18 01:51:29.670#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10394#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.521509] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:51:29.670#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10394#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:22.975483] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 successfully destroyed container for instance cf9d8b34-e3e6-4290-7fd8-7305 (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.409032] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 stopping instance cf9d8b34-e3e6-4290-7fd8-7305 (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.409061] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 destroying container for instance cf9d8b34-e3e6-4290-7fd8-7305 (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.424544] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.438145] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"cf9d8b34-e3e6-4290-7fd8-7305", "index"=>0, "cell_id"=>"e07bf812-eb0a-496a-8728-2e644bd9e955", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1747533081404905128, "version"=>"b04cd7f9-f90d-4c2a-a30c-3ab386fad783"} (STDOUT, API)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:21.521509] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:22.975483] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 successfully destroyed container for instance cf9d8b34-e3e6-4290-7fd8-7305 (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:30.888584] Stopping app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:31.051973] Starting app with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 (STDOUT, API)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:31.221942] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 creating container for instance 29b1e331-b55a-4128-464c-1845 (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:31.574181] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:31.634339] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 successfully created container for instance 29b1e331-b55a-4128-464c-1845 (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:32.097880] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:36.331223] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:36.331350] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:36.389128] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:36.427810] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:36.430265] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:51:39.749#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10396#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:36.435039] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:42.602904] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 stopping instance 29b1e331-b55a-4128-464c-1845 (STDOUT, CELL)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:42.602936] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 destroying container for instance 29b1e331-b55a-4128-464c-1845 (STDOUT, CELL)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:42.603851] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:42.615030] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"29b1e331-b55a-4128-464c-1845", "index"=>0, "cell_id"=>"e07bf812-eb0a-496a-8728-2e644bd9e955", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1747533102586512960, "version"=>"33c4fd51-b9de-49da-b081-1aea9d15334b"} (STDOUT, API)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:42.665112] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 creating container for instance 4dfc03e0-815d-4312-41a6-241a (STDOUT, CELL)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:42.711160] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:43.070389] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:43.132598] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 successfully created container for instance 4dfc03e0-815d-4312-41a6-241a (STDOUT, CELL)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:43.457057] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:44.121109] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 successfully destroyed container for instance 29b1e331-b55a-4128-464c-1845 (STDOUT, CELL)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:47.658959] Downloaded droplet (88.3M) (STDOUT, CELL)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:47.659074] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:47.732743] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:47.780241] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:47.781899] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:51:49.687#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10398#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:47.787403] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:53.693889] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 stopping instance 4dfc03e0-815d-4312-41a6-241a (STDOUT, CELL)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:53.693920] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 destroying container for instance 4dfc03e0-815d-4312-41a6-241a (STDOUT, CELL)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:53.697197] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:53.711023] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"4dfc03e0-815d-4312-41a6-241a", "index"=>0, "cell_id"=>"b29e5b5c-e50a-44b7-887b-4d2321603506", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1747533113677360932, "version"=>"33c4fd51-b9de-49da-b081-1aea9d15334b"} (STDOUT, API)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:53.751624] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 creating container for instance e6b4a4ca-6ece-4960-6017-c51b (STDOUT, CELL)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:53.803663] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:54.114033] Security group rules were updated (STDOUT, CELL)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:54.166396] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 successfully created container for instance e6b4a4ca-6ece-4960-6017-c51b (STDOUT, CELL)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:54.486138] Downloading droplet... (STDOUT, CELL)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:55.127725] Cell b29e5b5c-e50a-44b7-887b-4d2321603506 successfully destroyed container for instance 4dfc03e0-815d-4312-41a6-241a (STDOUT, CELL)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:55.390216] Downloaded droplet (STDOUT, CELL)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:55.390334] Starting health monitoring of container (STDOUT, CELL)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:55.449305] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:55.487227] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:55.488972] bash: line 1: gunicorn: command not found (STDERR, APP/PROC/WEB)#
+#2025 05 18 01:51:59.679#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10402#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:51:55.494413] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2025 05 18 01:52:09.682#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10405#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:52:01.598681] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 stopping instance e6b4a4ca-6ece-4960-6017-c51b (STDOUT, CELL)#
+#2025 05 18 01:52:09.682#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10405#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:52:01.598713] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 destroying container for instance e6b4a4ca-6ece-4960-6017-c51b (STDOUT, CELL)#
+#2025 05 18 01:52:09.682#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10405#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:52:01.610912] Process has crashed with type: "web" (STDOUT, API)#
+#2025 05 18 01:52:09.682#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10405#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:52:01.621433] App instance exited with guid d3123dd3-0be9-4c4e-a02a-207ec1124534 payload: {"instance"=>"e6b4a4ca-6ece-4960-6017-c51b", "index"=>0, "cell_id"=>"e07bf812-eb0a-496a-8728-2e644bd9e955", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1747533121594715603, "version"=>"33c4fd51-b9de-49da-b081-1aea9d15334b"} (STDOUT, API)#
+#2025 05 18 01:52:09.682#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10405#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:52:01.698072] Exit status 137 (STDOUT, PROXY)#
+#2025 05 18 01:52:09.682#Z#DEBUG#005f8a8c-338a-11f0-9304-eeee0a955177.Langgraph-AIC-KGE#flowable-async-job-executor-thread-10405#
+[PollStartAppStatusExecution] d3123dd3-0be9-4c4e-a02a-207ec1124534 [2025-05-18T01:52:03.079201] Cell e07bf812-eb0a-496a-8728-2e644bd9e955 successfully destroyed container for instance e6b4a4ca-6ece-4960-6017-c51b (STDOUT, CELL)#

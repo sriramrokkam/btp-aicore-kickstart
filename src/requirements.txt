@@ -1,0 +1,26 @@
+Flask==3.1.0
+requests==2.32.3
+numpy==1.26.4
+pandas==2.2.3
+hdbcli==2.24.24
+gunicorn==23.0.0
+PyJWT==2.10.1
+# Uncomment one at a time to find the conflict:
+# hana-ml==2.24.25042500
+# hana_ai==1.0.25042500
+# langchain==0.3.25
+# langchain-hana==0.2.0
+# rdflib==7.0.0
+# scikit-learn==1.6.1
+# scipy==1.15.3
+# gunicorn>=23.0.0
+# logger>=1.4
+# sap-xssec>=4.2.2
+# boto3>=1.37.3
+# pillow>=11.2.1
+# pdfplumber>=0.11.6
+# httpx>=0.28.1
+# python-dotenv>=1.1.0
+# PyJWT>=2.10.1
+# cfenv>=0.5.3
+# DBUtils>=3.1.0

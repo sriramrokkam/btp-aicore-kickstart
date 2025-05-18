@@ -1,0 +1,23 @@
+# Ignore build artifacts and deployment archives
+mta_archives/
+mta *
+*.mtar
+
+# Ignore local development credentials
+vcap_services.json
+.env
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings (optional)
+.vscode/

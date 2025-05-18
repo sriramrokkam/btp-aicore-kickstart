@@ -1,0 +1,105 @@
+# =====================================================================
+# LangGraph SAP AI Core BTP Python Bootstart Template - mta.yaml
+#
+# Prerequisites:
+# - SAP BTP Subaccount with Cloud Foundry enabled
+# - SAP HANA Cloud, XSUAA, Destination, (optional) Object Store, AI Core
+# - Role collections assigned for Destination access
+# - vcap_services.json for local dev (see README)
+#
+# Services:
+# - python: Flask backend (src/server.py)
+# - langgraph-hana: HDI container
+# - langgraph-xsuaa: AuthN/AuthZ
+# - langgraph-destination: HTTP destinations (AI Core)
+# - langgraph-object-store: (optional) file storage
+#
+# Deployment:
+# - Build: mbt build
+# - Deploy: cf deploy mta_archives/<mtar-file>.mtar
+# - See README for full instructions
+# =====================================================================
+_schema-version: '3.1'
+#
+# Multi-Target Application (MTA) descriptor for SAP BTP Cloud Foundry deployment
+#
+# This file defines the deployment structure for the LangGraph-based AI workflow integrated with SAP AI Core.
+#
+# Modules:
+#   - langgraph-aic-kge: Python Flask backend for chatbot and workflow orchestration
+#
+# Resources:
+#   - hana: SAP HANA Cloud HDI container for data persistence
+#   - xsuaa: XSUAA service for authentication and authorization
+#   - destination: Destination service for outbound connectivity
+#   - object-store: (optional, currently commented) for unstructured file storage
+#
+# Build Parameters:
+#   - Custom builder runs pip install for Python dependencies
+#   - Ignores cache and log folders during build
+#
+# Usage:
+#   - Build: mbt build
+#   - Deploy: cf deploy mta_archives/langgraph-sap-ai-bot_0.0.1.mtar
+#
+# For local development, use vcap_services.json for service credentials.
+# For Cloud Foundry, credentials are injected via VCAP_SERVICES.
+#
+ID: langgraph-sap-ai-bot
+version: 0.0.1
+
+modules:
+  - name: langgraph-aic-kge
+    type: python
+    path: src
+    parameters:
+      memory: 512M
+      disk-quota: 512M
+      buildpack: python_buildpack
+      command: gunicorn server:app --bind 0.0.0.0:$PORT
+      host: langgraph-aic-kge
+    requires:
+      - name: langgraph-hana
+      - name: langgraph-xsuaa
+      # - name: langgraph-object-store
+      - name: langgraph-destination
+    properties:
+      FLASK_ENV: PRODUCTION
+      FLASK_APP: server.py
+    build-parameters:
+      builder: custom
+      build-result: .
+      ignore:
+        - __pycache__/
+        - node_modules/
+        - logs/
+      commands:
+        - pip install -r requirements.txt
+
+resources:
+  - name: langgraph-hana
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared
+
+  - name: langgraph-xsuaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      config:
+        xsappname: langgraph-aic-kge
+        tenant-mode: dedicated
+
+  # - name: langgraph-object-store
+  #   type: org.cloudfoundry.managed-service
+  #   parameters:
+  #     service: objectstore
+  #     service-plan: default
+
+  - name: langgraph-destination
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite
